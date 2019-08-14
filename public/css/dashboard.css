@@ -1,0 +1,139 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+html {
+	font-size: 14px !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+.search-box {
+	margin-top: .7rem;
+	margin-bottom: .7rem;
+	margin-right: .7rem;
+}
+
+.my-2 {
+	margin-bottom: .4rem;
+	margin-top: .4rem;
+}
+
+img {
+  max-width: 200px;
+}
+
+td img {
+  max-width: 100px;
+}
+
+.fade.show {
+	/*opacity: 1;*/
+}
+
+.product-sort {
+	position: relative;
+	padding-right: 1.2rem;
+}
+
+.product-sort a {
+	color: #BCBCBC;
+	font-size: 1.1rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.product-sort a:nth-child(1) {
+	right: .6rem;
+}
+
+.product-sort a:hover, .product-sort a.active {
+	color: #292929;
+}
+
+span.select2 {
+  width: 100% !important;
+}
+
+li.select2-selection__choice {
+	padding: 2px 7px !important;
+}
+li.select2-selection__choice span {
+	padding-right: 4px;
+}
+.select-style li.select2-selection__choice {
+	background-color:  #0048A4 !important;
+	border-color: #01387E !important;
+	color: white;
+}
+
+.select-style li.select2-selection__choice span {
+	color: white !important;
+}
+
+.select-color li.select2-selection__choice {
+	background-color: #7F9116 !important;
+	border-color: #6A7915 !important;
+	color: white;
+}
+
+.select-color li.select2-selection__choice span {
+	color: white !important;
+}
+
+.select-size li.select2-selection__choice {
+	background-color: #A60121 !important;
+	border-color: #7B031A !important;
+	color: white;
+}
+
+.select-size li.select2-selection__choice span {
+	color: white !important;
+}
+
+.label-required:after
+{
+	content: " *";
+	color: red;
+}
+
+input[type=checkbox] {
+	border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 14px;
+    width: 14px;
+    min-width: 14px;
+    border-radius: 2px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    -webkit-transition: .05s border-color ease-in-out;
+    transition: .05s border-color ease-in-out;
+    font-family: "Font Awesome 5 Free";
+}
+
+input[type=checkbox]:checked:before {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+    font-family: FontAwesome;
+    content: "\f00c";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: .05s border-color ease-in-out;
+    background: #007bff;
+}
